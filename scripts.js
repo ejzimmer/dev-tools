@@ -1,1 +1,1 @@
-document.getElementById('big-clicky-button').addEventListener('click', () => console.log('click'));
+document.getElementById('big-clicky-button').addEventListener('click', (event) => { event.target.style.backgroundColor = 'rebeccapurple'; });
